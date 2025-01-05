@@ -25,13 +25,14 @@
      padding: 15px 35px;
  }
 
-
+/* nav related style */
 
  nav {
 
      display: flex;
      justify-content: space-between;
      align-items: center;
+     margin: 0 200px;
  }
 
  .nav-titel {
@@ -59,3 +60,16 @@
      text-decoration: none;
      color: black;
  }
+   /* header related style */
+   .header{
+    background-color: antiquewhite;
+   }
+   .banner{
+    padding: 50px 50px 50px 150px;
+    display: flex;
+    align-items: center;
+   }
+   .banner .profile-picture{
+
+    width: 500px;
+   }
