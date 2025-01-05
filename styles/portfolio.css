@@ -102,6 +102,10 @@
 
      width: 500px;
  }
+ .banner-description{
+
+    margin-right: 180px;
+ }
 
  .banner-greeting {
 
@@ -168,22 +172,58 @@
 
  .skill {
      padding: 30px;
-     border-radius: 5px;
+     border-radius: 10px;
      background: #fff;
      box-shadow: 0px 6px 50px 0px rgba(17, 1, 1, 0.06);
-
+     margin-right: 30px;
 
  }
 
  .skills-description {
-color: dimgrey;
-    
+  color: dimgrey;
+   margin-right: 50px; 
  }
  /* resume sction */
 
  .resume-coloum-titel{
 
-    color: dimgray;
+    color: rgb(12, 12, 12);
     font-size: 30px;
     font-weight:700 ;
+ }
+ .resume-container{
+
+    display: flex;
+    gap: 270px;
+    font-style: open sans;
+ }
+ .resume-item-titel{
+
+    color: dimgray;
+    font-size: 20px;
+    font-weight:700 ;
+    margin-bottom: 10px;
+ }
+.rerume-item-description{
+
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+
+ .resume-item-descriptionfull{
+
+    color: dimgray;
+    margin-right: 80px;
+
+ }
+ .resume-container hr{
+    margin-block: 10px;
+ }
+
+
+ .download-cv{
+
+    text-align: center;
+    margin-top: 50px;
  }
